@@ -59,6 +59,67 @@ This comprehensive ethical hacking course covers everything from Linux fundament
 - [ ] Network traffic analyzer
 - [ ] DNS enumeration tool
 
+#### 🆕 PRACTICAL ASSESSMENT (02-networking/practical-assessment/)
+**Real-World Vulnerability Assessment Study:**
+
+##### Phase 1: Foundation Study
+- [ ] Read practical-assessment/README.md
+- [ ] Read practical-assessment/INDEX.md
+- [ ] Study practical-assessment/concepts/fundamental_concepts.md
+  - [ ] Network fundamentals (IP, CIDR, MAC addresses)
+  - [ ] Port and service concepts
+  - [ ] Common vulnerabilities
+  - [ ] Security protocols (SSH, SMB, RPC)
+  - [ ] Attack methodologies
+  - [ ] Legal/ethical considerations
+
+##### Phase 2: Complete Walkthrough Analysis
+- [ ] Study practical-assessment/guides/complete_walkthrough.md
+  - [ ] Phase 1-2: Preparation & Tool Verification
+  - [ ] Phase 3: Host Discovery (10 hosts found)
+  - [ ] Phase 4: Port Scanning (identify services)
+  - [ ] Phase 5: Service Enumeration (version detection)
+  - [ ] Phase 6: Vulnerability Assessment (CVE research)
+  - [ ] Phase 7: Advanced Enumeration (SMB relay attacks)
+  - [ ] Phase 8: Exploit Research (searchsploit)
+  - [ ] Phase 9: Professional Reporting
+
+##### Phase 3: Raw Data Analysis Practice
+- [ ] Analyze practical-assessment/scans/host_discovery.txt
+- [ ] Analyze practical-assessment/scans/port_scan.txt
+- [ ] Analyze practical-assessment/scans/extended_scan.txt
+- [ ] Analyze practical-assessment/scans/version_details.txt
+- [ ] Analyze practical-assessment/scans/vuln_gateway.txt
+- [ ] Analyze practical-assessment/scans/vuln_smb.txt
+- [ ] Analyze practical-assessment/scans/smb_enum.txt
+- [ ] Compare your interpretations with walkthrough
+
+##### Phase 4: Professional Report Study
+- [ ] Study practical-assessment/reports/vulnerability_assessment_report.md
+  - [ ] Executive Summary structure
+  - [ ] Methodology documentation
+  - [ ] Finding #1: SSH password-only auth (CVSS 5.3)
+  - [ ] Finding #2: SMB signing optional (CVSS 6.5)
+  - [ ] Finding #3: Unknown devices
+  - [ ] Risk assessment calculations
+  - [ ] Remediation roadmap (4 phases)
+  - [ ] Cost-benefit analysis
+
+##### Phase 5: Quick Reference Mastery
+- [ ] Bookmark practical-assessment/guides/quick_reference.md
+- [ ] Master essential nmap commands
+- [ ] Learn common ports (21, 22, 80, 443, 445, etc.)
+- [ ] Understand CVSS scoring
+- [ ] Practice remediation commands
+
+##### Phase 6: Apply Knowledge
+- [ ] Perform your own network scan (authorized!)
+- [ ] Document findings using assessment template
+- [ ] Write your own vulnerability report
+- [ ] Compare with professional example
+
+**Assessment Completion:** ___% | **Date:** _____________
+
 **Notes:** ___________________________________________________________________
 
 ---

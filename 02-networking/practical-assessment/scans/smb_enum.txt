@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:45:23 2025 as: /usr/lib/nmap/nmap --privileged -p 445 --script smb-os-discovery,smb-protocols,smb-security-mode,smb-enum-shares -oN /tmp/smb_enum.txt 192.168.1.2
+Nmap scan report for 192.168.1.2
+Host is up (0.0043s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+MAC Address: 34:6F:24:E2:EE:6F (AzureWave Technology)
+
+Host script results:
+| smb-protocols: 
+|   dialects: 
+|     2:0:2
+|     2:1:0
+|     3:0:0
+|     3:0:2
+|_    3:1:1
+
+# Nmap done at Mon Dec 22 19:45:23 2025 -- 1 IP address (1 host up) scanned in 0.26 seconds

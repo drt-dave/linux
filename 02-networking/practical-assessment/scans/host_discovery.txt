@@ -1,0 +1,31 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:43:21 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN /tmp/host_discovery.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0053s latency).
+MAC Address: 08:33:ED:04:51:30 (Askey Computer)
+Nmap scan report for 192.168.1.2
+Host is up (0.00021s latency).
+MAC Address: 34:6F:24:E2:EE:6F (AzureWave Technology)
+Nmap scan report for 192.168.1.3
+Host is up (0.29s latency).
+MAC Address: C4:98:5C:58:4A:57 (Hui Zhou Gaoshengda Technology)
+Nmap scan report for 192.168.1.4
+Host is up (0.21s latency).
+MAC Address: 0E:C4:FE:E0:26:D9 (Unknown)
+Nmap scan report for 192.168.1.5
+Host is up (0.23s latency).
+MAC Address: DA:8D:52:F0:A3:09 (Unknown)
+Nmap scan report for 192.168.1.6
+Host is up (0.24s latency).
+MAC Address: 6E:7C:F8:91:30:E4 (Unknown)
+Nmap scan report for 192.168.1.8
+Host is up (0.23s latency).
+MAC Address: 92:07:63:84:70:2B (Unknown)
+Nmap scan report for 192.168.1.11
+Host is up (0.34s latency).
+MAC Address: F6:CE:D2:F8:50:51 (Unknown)
+Nmap scan report for 192.168.1.18
+Host is up (0.21s latency).
+MAC Address: 92:FA:5B:7D:9B:3A (Unknown)
+Nmap scan report for 192.168.1.10
+Host is up.
+# Nmap done at Mon Dec 22 19:43:30 2025 -- 256 IP addresses (10 hosts up) scanned in 8.73 seconds

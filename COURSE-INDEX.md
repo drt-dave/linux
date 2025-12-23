@@ -52,6 +52,7 @@ Master the Linux command line and system administration skills essential for eth
 
 ### 🌐 Module 2: Networking for Ethical Hacking
 **Directory:** `02-networking/`
+**Status:** ✅ Enhanced with Real-World Assessment
 
 Deep dive into networking concepts, protocols, and attack techniques.
 
@@ -71,13 +72,50 @@ Deep dive into networking concepts, protocols, and attack techniques.
 - Packet analyzer
 - DNS enumeration script
 
+**🆕 PRACTICAL ASSESSMENT** (`02-networking/practical-assessment/`)
+
+**Real-World Case Study:** Complete professional vulnerability assessment of network 192.168.1.0/24
+
+**Includes:**
+- ✅ **Complete Walkthrough** - Step-by-step methodology (9 phases)
+- ✅ **Professional Report** - Industry-standard penetration test report
+- ✅ **Fundamental Concepts** - Network security foundations
+- ✅ **Raw Scan Data** - 7 actual nmap scan outputs for practice
+- ✅ **Quick Reference** - Nmap commands, ports, remediation cheat sheet
+
+**Assessment Coverage:**
+- Host discovery (10 active hosts identified)
+- Port scanning (services on ports 22, 135, 139, 445)
+- Service enumeration (Dropbear SSH, Windows SMB)
+- Vulnerability assessment (password-only auth, SMB relay)
+- Professional reporting (CVSS scoring, remediation roadmap)
+
+**Key Findings Documented:**
+- Finding #1: SSH password-only authentication (CVSS 5.3 - Medium)
+- Finding #2: SMB signing not required (CVSS 6.5 - Medium-High)
+- Finding #3: Unknown network devices (Informational)
+
+**What You'll Learn:**
+- Complete penetration testing methodology
+- Real nmap command usage in context
+- How to interpret scan results
+- Professional report writing
+- Risk assessment and CVSS scoring
+- Remediation recommendations
+- Legal and ethical considerations
+
+**Study Time:** 8-12 hours (integrated into Module 2 curriculum)
+
+[📖 Module 2 Details](./02-networking/README.md) | [📊 Practical Assessment](./02-networking/practical-assessment/README.md)
+
 **Learning Outcomes:**
 - Understand network protocols at a deep level
-- Perform network reconnaissance
-- Analyze network traffic
-- Execute man-in-the-middle attacks
-
-[📖 Module 2 Details](./02-networking/README.md)
+- Perform network reconnaissance systematically
+- Analyze network traffic and scan results
+- Execute man-in-the-middle attacks (theory)
+- Conduct professional vulnerability assessments
+- Write industry-standard security reports
+- Calculate and communicate risk effectively
 
 ---
 

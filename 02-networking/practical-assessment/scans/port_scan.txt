@@ -1,0 +1,29 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:43:50 2025 as: /usr/lib/nmap/nmap --privileged -sV -sC -p 21,22,23,25,53,80,110,139,143,443,445,3306,3389,5900,8080,8443 -T4 -oN /tmp/port_scan.txt --open 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0044s latency).
+Not shown: 15 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Dropbear sshd 2019.78 (protocol 2.0)
+MAC Address: 08:33:ED:04:51:30 (Askey Computer)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00049s latency).
+Not shown: 14 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 34:6F:24:E2:EE:6F (AzureWave Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: DRT-DAVE, NetBIOS user: <unknown>, NetBIOS MAC: 34:6f:24:e2:ee:6f (AzureWave Technology)
+| smb2-time: 
+|   date: 2025-12-23T00:44:18
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 22 19:44:22 2025 -- 256 IP addresses (10 hosts up) scanned in 32.36 seconds

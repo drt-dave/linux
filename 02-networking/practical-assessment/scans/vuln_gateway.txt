@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:44:37 2025 as: /usr/lib/nmap/nmap --privileged --script vuln -p 22 -oN /tmp/vuln_gateway.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.0019s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 08:33:ED:04:51:30 (Askey Computer)
+
+# Nmap done at Mon Dec 22 19:44:48 2025 -- 1 IP address (1 host up) scanned in 10.46 seconds

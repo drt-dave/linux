@@ -46,6 +46,30 @@ This complete ethical hacking curriculum includes:
 
 ---
 
+## 🆕 What's New in Version 2.0
+
+**December 22, 2025 - Major Update:**
+
+✨ **Integrated Practical Assessment** - Module 2 now includes a complete real-world vulnerability assessment
+- 📊 Professional penetration test report with CVSS scoring
+- 📖 Complete 9-phase methodology walkthrough
+- 🔍 Real scan data from actual network assessment
+- 📝 Industry-standard reporting template
+- ⚡ Comprehensive nmap quick reference guide
+
+🎯 **New Integrated Study Guide** - Non-redundant learning path combining all materials
+- Clear progression through 10 modules
+- Practical assessment integrated into Module 2 curriculum
+- Study patterns for different experience levels
+- Certification alignment (Security+, CEH, OSCP)
+
+📊 **Enhanced Progress Tracker** - Now tracks practical assessment completion
+- 6 assessment phases to complete
+- Detailed checklist for each component
+- Professional report analysis tracking
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
@@ -95,17 +119,27 @@ vim PROGRESS-TRACKER.md
 
 ## 📖 Documentation
 
-- **[📋 Course Index](./COURSE-INDEX.md)** - Complete course overview
-- **[📊 Progress Tracker](./PROGRESS-TRACKER.md)** - Track your learning journey
+### 🆕 Start Here:
+- **[🎯 INTEGRATED STUDY GUIDE](./INTEGRATED-STUDY-GUIDE.md)** - **NEW! Complete learning path with practical assessment**
+
+### Core Documentation:
+- **[📋 Course Index](./COURSE-INDEX.md)** - Complete course overview with Module 2 practical assessment
+- **[📊 Progress Tracker](./PROGRESS-TRACKER.md)** - Track your learning journey (includes assessment checklist)
 - **[📚 Module READMEs](./01-linux-basics/README.md)** - Detailed module information
 
-### Additional Resources:
+### Tutorials:
 - **[🐧 Linux Fundamentals](./LINUX-FUNDAMENTALS-TUTORIAL.md)**
 - **[🔒 Security Concepts](./SECURITY-CONCEPTS-TUTORIAL.md)**
 - **[🌐 Networking Concepts](./NETWORKING-CONCEPTS-TUTORIAL.md)**
 - **[💻 Shell Scripting](./SHELL-SCRIPTING-TUTORIAL.md)**
 - **[🔐 DevSecOps](./DEVSECOPS-TUTORIAL.md)**
 - **[🗺️ Learning Roadmap](./ROADMAP.md)**
+
+### 🆕 Module 2 Practical Assessment:
+- **[📊 Assessment Overview](./02-networking/practical-assessment/README.md)** - Real vulnerability assessment
+- **[📖 Complete Walkthrough](./02-networking/practical-assessment/guides/complete_walkthrough.md)** - 9-phase methodology
+- **[📄 Professional Report](./02-networking/practical-assessment/reports/vulnerability_assessment_report.md)** - Industry standard
+- **[⚡ Quick Reference](./02-networking/practical-assessment/guides/quick_reference.md)** - Commands cheat sheet
 
 ---
 

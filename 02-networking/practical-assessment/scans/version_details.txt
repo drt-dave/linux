@@ -1,0 +1,30 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:46:17 2025 as: /usr/lib/nmap/nmap --privileged -sV -p 22,135,139,445 --script banner,ssh-auth-methods -oN /tmp/version_details.txt 192.168.1.1 192.168.1.2
+Nmap scan report for 192.168.1.1
+Host is up (0.0023s latency).
+
+PORT    STATE  SERVICE      VERSION
+22/tcp  open   ssh          Dropbear sshd 2019.78 (protocol 2.0)
+| ssh-auth-methods: 
+|   Supported authentication methods: 
+|_    password
+| banner: SSH-2.0-dropbear_2019.78\x0D\x0A\x00\x00\x01\\x09\x14\xD3\x94\x
+|_8F\xF4\x88\x88\xBAB\x9B\x96\x09L\xD6\x9A-g\x00\x00\x00\x9Fcurve25519...
+135/tcp closed msrpc
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 08:33:ED:04:51:30 (Askey Computer)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00034s latency).
+
+PORT    STATE  SERVICE       VERSION
+22/tcp  closed ssh
+135/tcp open   msrpc         Microsoft Windows RPC
+139/tcp open   netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open   microsoft-ds?
+MAC Address: 34:6F:24:E2:EE:6F (AzureWave Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 22 19:46:38 2025 -- 2 IP addresses (2 hosts up) scanned in 21.47 seconds

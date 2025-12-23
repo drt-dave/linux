@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Mon Dec 22 19:45:34 2025 as: /usr/lib/nmap/nmap --privileged -p 1-1000 --open -T4 -oN /tmp/extended_scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0044s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 08:33:ED:04:51:30 (Askey Computer)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00031s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 34:6F:24:E2:EE:6F (AzureWave Technology)
+
+# Nmap done at Mon Dec 22 19:46:10 2025 -- 256 IP addresses (10 hosts up) scanned in 36.15 seconds
